@@ -32,6 +32,7 @@ nav div {
 header nav {
    display: flex; 
    gap: 240px;
+   padding-bottom: 32px;
    
 
 }
@@ -58,11 +59,92 @@ header nav {
     text-decoration: none;
     color: var(--color-white);
     padding: 16px 32px;
-   
-    
     border-radius: 2em;
-    text-transform: uppercase;
-    font-size: 0.7em;
-    letter-spacing: 2px;
     transition: tranform 0.2s ease-in-out;
 }
+
+.hero_text {
+    padding-top: 132px;
+}
+
+.hero_text span {
+    color: var(--color-yellow);
+    padding-bottom: 16px;
+    
+}
+
+#h1_green {
+    font-size: var(--fontsize-h2);
+    color: var(--color-white);
+    line-height: 60px;
+    margin: 0;
+}
+
+header div p {
+    font-size: var(--fontsize-p);
+    color: var(--color-white);
+    padding-bottom: 32px;
+}
+
+.download_now {
+    padding-top: 64px;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.full_hero {
+    display: flex;
+}
+
+#Phone_mockup {
+    padding-left: 220px;
+    padding-bottom: 12px;
+  
+    
+}
+
+main section.white1 {
+    background-color:var(--color-white);
+
+}
+
+main section.white1 span {
+    color: var(--color-green);
+    font-size: var(--fontsize-p);
+
+}
+
+main section.white1 h2 {
+    color: var(--color-green);
+    font-size: var(--fontsize-h3);
+
+
+}
+
+main section.white1 p {
+    color: var(--color-green);
+    font-size: var(--fontsize-p);
+}
+
+main section.white1 div h3 {
+    color: var(--color-green);
+    font-size: var(--fontsize-h3);
+}
+
+main section.white1 div p {
+    color: var(--color-green);
+    font-size: var(--fontsize-p);
+}
+
+main section.white1 .divider {
+    background-color: #FFC53E;
+    padding: 10px;
+}
+
+
+main section.white1 .stats_row {
+    
+}
+
+
