@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --color-green: #0C3C3B;
     --color-yellow: #FFC53E;
@@ -21,6 +26,7 @@ header {
     padding-top: 1em;
 
     background-color: var(--color-green);
+    
 
   
 }
@@ -104,20 +110,40 @@ header div p {
     
 }
 
+
+#text {
+    padding-bottom: 64px;
+    display:inline-block;
+    
+   
+}
+
+
+
 main section.white1 {
     background-color:var(--color-white);
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
 
 }
 
 main section.white1 span {
     color: var(--color-green);
     font-size: var(--fontsize-p);
+   
+    margin-bottom: 16px;
 
 }
 
 main section.white1 h2 {
     color: var(--color-green);
     font-size: var(--fontsize-h3);
+   
 
 
 }
@@ -130,21 +156,88 @@ main section.white1 p {
 main section.white1 div h3 {
     color: var(--color-green);
     font-size: var(--fontsize-h3);
+    
 }
 
 main section.white1 div p {
     color: var(--color-green);
     font-size: var(--fontsize-p);
+   
+
 }
 
 main section.white1 .divider {
-    background-color: #FFC53E;
-    padding: 10px;
+    background-color: var(--color-yellow);
+    padding: 5px;
+    border-radius: 30px;
+  
+
 }
 
 
 main section.white1 .stats_row {
+    display: flex;
+    padding-bottom: 100px;
+    text-align: center;
+    gap: 32px;
     
 }
+
+.stat_box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stat_box h3 {
+    
+}
+
+
+.cta_btn {
+    background-color: var(--color-yellow); 
+    text-decoration: none;
+    color: var(--color-white);
+    padding: 16px 32px;
+    border-radius: 2em;
+    transition: tranform 0.2s ease-in-out;
+}
+
+main section .img_grid {
+    display: flex;
+    gap: 20px;
+}
+
+main section .img_grid img {
+    width: 295px;
+    height: 508px;
+    border-radius: 32px;
+
+}
+
+main section .img_grid .img {
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#img2 {
+    height: 244px;
+    border-radius: 32px;
+}
+
+#img3 {
+    height: 244px;
+    width: 295px;
+    border-radius: 32px;
+}
+
+
+.fullwhite1 {
+ 
+}
+
+
 
 
