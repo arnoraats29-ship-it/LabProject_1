@@ -55,13 +55,14 @@ header nav {
     font-size: var(--fontsize-p);
     color: var(--color-white);
     text-decoration: none;
-    
-    
+}
+
+#fullnav div a {
+    font-weight: bold;
 }
 
 .btn_nav {
     background-color: var(--color-yellow);
-    display: flex; 
     text-decoration: none;
     color: var(--color-white);
     padding: 16px 32px;
@@ -186,6 +187,11 @@ main section.section_light .stats_row {
     
 }
 
+
+.full_light a {
+    font-weight: bold;
+}
+
 .stat_box {
     display: flex;
     flex-direction: column;
@@ -299,6 +305,10 @@ main section .img_grid .img {
     display: flex;
 }
 
+#full_merch div a {
+    font-weight: bold;
+}
+
 
 
 .merch_row h4 {
@@ -322,6 +332,7 @@ main section .img_grid .img {
     border-radius: 20px;
     border: 1px solid var(--color-yellow);
     font-size: 1.5em;
+    
 
 
 
@@ -337,6 +348,63 @@ main section .img_grid .img {
      font-size: 1.5em;
 
 }
+
+
+
+.section_understanding {
+    background-color: var(--color-white);
+    padding: 100px;
+    display: flex;
+    gap: 64px;
+}
+
+.section_understanding .text_understanding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section_understanding .text_understanding span {
+    color: var(--color-green);
+    font-size: var(--fontsize-p);
+    
+   
+}
+
+.section_understanding .text_understanding h2 {
+    color: var(--color-green);
+    font-size: var(--fontsize-h2);
+    line-height: 50px;
+    padding-top: 16px;
+}
+
+.section_understanding .text_understanding p {
+    color: var(--color-green);
+    font-size: var(--fontsize-p);
+    line-height: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.section_understanding .text_understanding .btn_nav  {
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: bold;
+   
+    
+}
+
+.section_understanding #img_understanding img {
+    max-width: 500px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    border-radius: 32px;
+    object-fit: cover;
+}
+
+
+
+
 
 
 
