@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    padding-left:100px;
+    padding:min(6.25em, 5%);
     padding-top: 1em;
 
     background-color: var(--color-green);
@@ -67,7 +67,8 @@ header nav {
     color: var(--color-white);
     padding: 16px 32px;
     border-radius: 2em;
-    transition: tranform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    font-weight: bold;
 }
 
 .hero_text {
@@ -124,13 +125,11 @@ header div p {
 
 main section.section_light {
     background-color:var(--color-white);
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding:min(6.25em, 5%);
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding-bottom: 100px;
+   
     
 
 }
@@ -247,7 +246,7 @@ main section .img_grid .img {
 
 .section_dark {
     background-color: var(--color-green);
-    padding: 100px;
+    padding:min(6.25em, 5%);
     
 }
 
@@ -285,10 +284,6 @@ main section .img_grid .img {
     padding-left: 100px;
     gap: 32px;
 
-}
-
-.merch_row {
-    padding-bottom: 20em;
 }
 
 
@@ -353,7 +348,7 @@ main section .img_grid .img {
 
 .section_understanding {
     background-color: var(--color-white);
-    padding: 100px;
+    padding:min(6.25em, 5%);
     display: flex;
     gap: 64px;
 }
@@ -401,6 +396,112 @@ main section .img_grid .img {
     border-radius: 32px;
     object-fit: cover;
 }
+
+
+.section_journey {
+    background-color: var(--color-green);
+    padding:min(6.25em, 5%);
+    display: flex;
+    gap: 64px;
+}
+
+.section_journey span {
+    color: var(--color-yellow);
+    font-size: var(--fontsize-p);
+    
+}
+
+.section_journey h2 {
+    color: var(--color-white);
+    font-size: var(--fontsize-h2);
+    line-height: 50px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.section_journey p {
+    color: var(--color-white);
+    font-size: var(--fontsize-p);
+    line-height: 24px;
+    padding-bottom: 32px;
+}
+
+.section_journey #btn {
+    padding-bottom: 6em;
+    padding-top: 32px;
+}
+
+.section_journey div img {
+     max-width: 500px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    border-radius: 32px;
+    object-fit: cover;
+}
+
+
+
+.section_FAQ {
+    background-color: var(--color-white);
+    padding:min(6.25em, 5%);
+    text-align: center;
+    
+}
+
+.section_FAQ span {
+    color: var(--color-green);
+    font-size: var(--fontsize-p);
+}
+
+.section_FAQ h2 {
+    color: var(--color-green);
+    font-size: var(--fontsize-h2);
+    line-height: 50px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.section_FAQ p {
+    color: var(--color-green);
+    font-size: var(--fontsize-p);
+    line-height: 24px;
+
+}
+
+
+.FAQ_list {
+    text-align: left;
+    padding-left: min(12.25em, 15%);
+    padding-top: 64px;
+   
+}
+
+.faq_item {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--color-green);
+    font-size: var(--fontsize-p);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.faq-item summary {
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
